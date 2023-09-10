@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
+*{
+    box-sizing: border-box;
+    font-family: 'Kanit', sans-serif;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #f7f7f7;
+    min-height: 100vh;
+    margin: 0;
+}
+.container{
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+}
+.item{
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 15px;
+    margin-bottom: 10px;
+    padding-left: 10px;
+    font-size: 1.3rem;
+    box-shadow: 2px 2px 2px #888888;
+}
+.form-control{
+    display: flex;
+    flex-direction: column;
+}
+input{
+    height: 2em;
+    border-radius: 8px 8px 0 0;
+    padding: 0 15px 0 15px;
+    font-size: 1.3em;
+}
+.rm{
+    border-radius: 20%;
+    width: 30px;
+    height: 30px;
+    color: white;
+    background-color: rgb(215, 99, 99);
+    margin: 5px 5px 0 0;
+    position: relative;
+    transition: ease 0.3s;
+}
+.rm:hover{
+    background-color: rgb(231, 55, 55);
+
+}
+.btn-add{
+    height: 50px;
+    border-radius: 0 0 8px 8px;
+    font-size: 1.5rem;
+    background-color: green;
+    color: white;
+    font-weight: 600;
+    transition: ease 0.3s;
+}
+.btn-add:hover{
+    background-color: #1fbb36;
+    /* color: black; */
+}
